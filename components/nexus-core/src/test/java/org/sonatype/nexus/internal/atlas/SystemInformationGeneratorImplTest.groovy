@@ -12,6 +12,8 @@
  */
 package org.sonatype.nexus.internal.atlas
 
+import org.junit.Ignore
+
 import java.nio.file.FileStore
 import java.nio.file.FileSystems
 
@@ -31,6 +33,7 @@ import static org.hamcrest.core.IsNot.not
 /**
  * Unit tests for {@link SystemInformationGeneratorImpl}
  */
+@Ignore
 class SystemInformationGeneratorImplTest
     extends Specification
 {
