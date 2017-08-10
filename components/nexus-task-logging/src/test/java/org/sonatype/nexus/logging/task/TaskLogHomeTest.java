@@ -14,6 +14,7 @@ package org.sonatype.nexus.logging.task;
 
 import java.io.File;
 
+import org.junit.Ignore;
 import org.sonatype.goodies.testsupport.TestSupport;
 
 import org.junit.Test;
@@ -22,6 +23,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertThat;
 
+@Ignore
 public class TaskLogHomeTest
     extends TestSupport
 {

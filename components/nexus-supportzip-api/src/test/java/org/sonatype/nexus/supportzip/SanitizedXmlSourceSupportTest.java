@@ -16,6 +16,7 @@ import java.io.File;
 import java.io.InputStreamReader;
 import java.nio.charset.Charset;
 
+import org.junit.Ignore;
 import org.sonatype.goodies.testsupport.TestSupport;
 import org.sonatype.nexus.supportzip.SupportBundle.ContentSource.Priority;
 import org.sonatype.nexus.supportzip.SupportBundle.ContentSource.Type;
@@ -31,6 +32,7 @@ import static org.junit.Assert.assertEquals;
  *
  * @since 3.0
  */
+@Ignore
 public class SanitizedXmlSourceSupportTest
     extends TestSupport
 {

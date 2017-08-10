@@ -23,6 +23,7 @@ import java.util.concurrent.locks.LockSupport;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+import org.junit.Ignore;
 import org.sonatype.goodies.common.Time;
 import org.sonatype.goodies.testsupport.TestSupport;
 import org.sonatype.goodies.testsupport.concurrent.ConcurrentRunner;
@@ -249,6 +250,7 @@ public class ConcurrentProxyTest
     });
   }
 
+  @Ignore
   @Test
   public void downloadTimeoutsAreStaggered() throws Exception {
     CooperatingFuture<String> cooperatingFuture = new CooperatingFuture<>();

@@ -19,6 +19,7 @@ import java.nio.file.Path;
 import java.util.Map;
 import java.util.Properties;
 
+import org.junit.Ignore;
 import org.sonatype.goodies.testsupport.TestSupport;
 import org.sonatype.nexus.blobstore.api.BlobMetrics;
 
@@ -39,6 +40,7 @@ public class FileBlobAttributesTest
   @Rule
   public TemporaryFolder temporaryFolder = new TemporaryFolder();
 
+  @Ignore
   @Test
   public void testPersistence() throws Exception {
     Path path = temporaryFolder.newFile().toPath();
